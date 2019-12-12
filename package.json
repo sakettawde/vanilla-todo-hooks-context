@@ -1,12 +1,8 @@
 {
   "name": "vanilla-todo-hooks-context",
   "version": "1.0.0",
-  "description": "A vanilla create-react-app To Do List application using hooks for clean-'er' code",
-  "keywords": [
-    "react",
-    "hooks",
-    "context"
-  ],
+  "description": "Added context to make the code even cleaner",
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "react": "16.12.0",

@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { ListContext } from "./ToDoApp";
 
 const AddToDo = props => {
   const [todo, updateTodo] = useState("");
+  const { updateList } = useContext(ListContext);
 
   const addToDoAction = () => {
-    props.updateToDoList(list => [
+    updateList(list => [
       ...list,
       { id: list.length + 1, name: todo, done: false }
     ]);

@@ -6,7 +6,7 @@ import ToDoApp from "./ToDoApp";
 
 function App() {
   return (
-    <div>
+    <div style={{ padding: 12 }}>
       <h2>Todo App</h2>
       <ToDoApp />
     </div>

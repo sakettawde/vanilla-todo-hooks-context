@@ -22,8 +22,9 @@ const ToDoApp = props => {
   return (
     <div>
       <ListContext.Provider value={ctxValue}>
-        <AddToDo updateToDoList={updateToDoList} />
-        <ToDoList list={todoList} updateToDoList={updateToDoList} />
+        <AddToDo />
+        <div style={{ height: 8 }} />
+        <ToDoList />
       </ListContext.Provider>
     </div>
   );
