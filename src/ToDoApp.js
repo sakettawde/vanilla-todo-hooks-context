@@ -11,7 +11,7 @@ export const ListContext = React.createContext(defaultContext);
 
 const ToDoApp = props => {
   const [todoList, updateToDoList] = useState([
-    { id: 1, name: "This thing", done: false }
+    { id: 1, name: "This thing change made", done: false }
   ]);
 
   const ctxValue = {
