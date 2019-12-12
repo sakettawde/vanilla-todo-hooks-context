@@ -23,7 +23,6 @@ const ToDoApp = props => {
     <div>
       <ListContext.Provider value={ctxValue}>
         <AddToDo />
-        <div style={{ height: 8 }} />
         <ToDoList />
       </ListContext.Provider>
     </div>
